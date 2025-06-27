@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/MiGustoLovers/',
+  base: '/',
     envDir: './', // Directorio donde buscar el archivo .env
     define: {
       // Hacer las variables de entorno disponibles globalmente
